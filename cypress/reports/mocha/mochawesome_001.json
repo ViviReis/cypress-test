@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-07-19T22:35:06.116Z",
+    "end": "2020-07-19T22:35:38.477Z",
+    "duration": 32361,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f8ab630c-55ee-45a6-b6f8-c608b80035d2",
+      "title": "",
+      "fullFile": "cypress/integration/jobs.spec.js",
+      "file": "cypress/integration/jobs.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "99e1fb61-a497-4dbb-98ac-12b3a964b0f5",
+          "title": "Jobs",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "f874d029-7a49-4d84-b20e-6c6dfee4847e",
+              "title": "See jobs",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "See job details",
+                  "fullTitle": "Jobs See jobs See job details",
+                  "timedOut": null,
+                  "duration": 31002,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "_signin[\"default\"].visitSignIn();\n_signin[\"default\"].signupWeb();\n_jobs[\"default\"].clickOpportunityPage();\n_jobs[\"default\"].applyJob();",
+                  "err": {},
+                  "uuid": "b373f26a-39bf-4ce1-b521-d8798eaa6358",
+                  "parentUUID": "f874d029-7a49-4d84-b20e-6c6dfee4847e",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "b373f26a-39bf-4ce1-b521-d8798eaa6358"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 31002,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}
