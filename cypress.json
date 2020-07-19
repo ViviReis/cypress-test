@@ -1,0 +1,18 @@
+{
+  "projectId": "1sgedx",
+  "baseUrl": "https://www.gupy.io",
+  "defaultCommandTimeout": 80000,
+  "viewportWidth": 1300,
+  "viewportHeight": 1050,
+  "reporter":  "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  }
+}

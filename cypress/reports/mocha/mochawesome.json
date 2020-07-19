@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-07-19T22:34:15.127Z",
+    "end": "2020-07-19T22:34:44.439Z",
+    "duration": 29312,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "589c9c74-e4cd-441e-b9de-71a8f836e266",
+      "title": "",
+      "fullFile": "cypress/integration/home.spec.js",
+      "file": "cypress/integration/home.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "eb62d6c8-9ec9-4721-8d2b-61a6f9ec66ff",
+          "title": "Home",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "199b351c-326a-49e0-9eb6-d479ea42afce",
+              "title": "Search Company Name",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "See PicPay jobs",
+                  "fullTitle": "Home Search Company Name See PicPay jobs",
+                  "timedOut": null,
+                  "duration": 17916,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "_home[\"default\"].searchCompanyName();\n_home[\"default\"].validateOptions('See jobs');",
+                  "err": {},
+                  "uuid": "284857b0-c25a-4d71-9ef8-d4f3ac50de23",
+                  "parentUUID": "199b351c-326a-49e0-9eb6-d479ea42afce",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "See login to the picpay page",
+                  "fullTitle": "Home Search Company Name See login to the picpay page",
+                  "timedOut": null,
+                  "duration": 6428,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "_home[\"default\"].searchCompanyName();\n_home[\"default\"].validateOptions('Platform login');",
+                  "err": {},
+                  "uuid": "f77faeff-e5d8-49fb-8d0a-98bd3467efc9",
+                  "parentUUID": "199b351c-326a-49e0-9eb6-d479ea42afce",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "284857b0-c25a-4d71-9ef8-d4f3ac50de23",
+                "f77faeff-e5d8-49fb-8d0a-98bd3467efc9"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 24344,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}
