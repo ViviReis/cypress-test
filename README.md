@@ -36,14 +36,14 @@ yarn add cypress --dev
 ### Installing project dependencies ###
 Install the npm packages:
 ```shell
-npm i
+npm install
 ```
 or
 
 ### Installing project dependencies ###
 Install the yarn packages:
 ```shell
-yarn i
+yarn install
 ```
 
 ### Running project tests ###
