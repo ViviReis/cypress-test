@@ -5,6 +5,11 @@
 - Login flow
 - Search flow
 
+### Clone project ###
+```shel
+git clone https://github.com/ViviReis/bdd-youse.git
+```
+
 ### Prerequisites ###
 Install [npm](https://www.npmjs.com/)
 
@@ -65,7 +70,7 @@ npm run test
 ```
 
 ### See report generated ###
-cd cypress/reports/mochareports
+cypress/reports/mochareports
 
 ### See report screenshots ###
 cypress/screenshots
