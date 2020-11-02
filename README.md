@@ -7,7 +7,7 @@
 
 ### Clone project ###
 ```shel
-git clone https://github.com/ViviReis/bdd-youse.git
+git clone git@github.com:ViviReis/cypress-test.git
 ```
 
 ### Prerequisites ###
